@@ -14,17 +14,6 @@
         <package name="com.sw.entity"/>
     </typeAliases>
 
-    <environments default="mysql">
-        <environment id="mysql">
-            <transactionManager type="JDBC"/>
-            <dataSource type="POOLED">
-                <property name="driver" value="com.mysql.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://localhost:3306/forum?useUnicode=true&amp;characterEncoding=UTF-8&amp;serverTimezone=UTC"/>
-                <property name="username" value="root"/>
-                <property name="password" value="sw1111"/>
-            </dataSource>
-        </environment>
-    </environments>
     <mappers>
         <package name="com.sw.dao"/>
     </mappers>
