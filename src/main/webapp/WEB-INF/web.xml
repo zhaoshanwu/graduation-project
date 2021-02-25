@@ -8,7 +8,7 @@
   <!--设置配置文件的路径-->
   <context-param>
     <param-name>contextConfigLocation</param-name>
-    <param-value>classpath:springconfig.xml</param-value>
+    <param-value>classpath:spring.xml</param-value>
   </context-param>
 
   <!-- 解决中文乱码问题的过滤器 -->
@@ -20,7 +20,6 @@
       <param-value>UTF-8</param-value>
     </init-param>
   </filter>
-
   <filter-mapping>
     <filter-name>encodingFilter</filter-name>
     <url-pattern>*</url-pattern>
